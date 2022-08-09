@@ -47,7 +47,9 @@ $(document).ready(function() {
 		$('.content-carousel').slick({
 		dots: true,
 		arrows:false,
-		autoplay: true
+		autoplay: true,
+		slidesToShow: 3,
+  		slidesToScroll: 1
 		});
 		
 	// COUNTER
@@ -68,9 +70,6 @@ $(document).ready(function() {
 		});
 		
 	// TRANSITION OVERLAY
-		$('.transition').on('click', function(e) {
-      	$('.transition-overlay').toggleClass("open");
-	    });
 		
 	// TRANSITION DELAY
 		$('.transition').on('click', function(e) {
