@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+<title>ok-delivery</title>
+<meta name="author" content="Themezinho">
+<meta name="description" content="Logistic and Delivery anything">
+<meta name="keywords" content="logistic, transportation, package, delivery, cargo, carousel, post, moving, caring">
+
+<!-- SOCIAL MEDIA META -->
+<meta property="og:description" content="Ok Delivery - Delivery anything">
+<meta property="og:image" content="http://www.themezinho.net/Ok Delivery/preview.png">
+<meta property="og:site_name" content="Ok Delivery">
+<meta property="og:title" content="Ok Delivery">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.themezinho.net/Ok Delivery">
+
+<!-- TWITTER META -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@Ok Delivery">
+<meta name="twitter:creator" content="@Ok Delivery">
+<meta name="twitter:title" content="Ok Delivery">
+<meta name="twitter:description" content="Ok Delivery - Delivering Anything, Anywhere">
+<meta name="twitter:image" content="http://www.themezinho.net/Ok Delivery/preview.png">
+
+<!-- FAVICON FILES -->
+<link href="/static/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+<link href="/static/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+<link href="/static/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+<link href="/static/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+<link href="/static/ico/favicon.png" rel="shortcut icon">
+
+<!-- CSS FILES -->
+<link href="/static/css/main.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="soft-transition"></div>
+<!-- end soft-transition -->
+<div class="transition-overlay"></div>
+<!-- end transition-overlay -->
+<main>
+  
+  <header class="full-header">
+    <nav class="navbar navbar-default">
+      <div class="top-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 hidden-xs">  </div>
+            <!-- end col-6 -->
+            <div class="col-md-3 col-sm-2 col-xs-4">
+              <div class="language dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="/static/images/flag-en.jpg" alt="Image">Language</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">አማርኛ</a></li>
+                  <li><a href="#">Afaan Oromoo</a></li>
+                  <li><a href="#">ትግርኛ</a></li>
+                  <li><a href="#">Afar</a></li>
+                  <li><a href="#">Af Somali</a></li>
+                </ul>
+                <!-- <option value="english" <?php //if($this->session->userdata('site_lang') == 'english') echo 'selected="selected"'; ?>>English</option>
+                <option value="amharic" <?php //if($this->session->userdata('site_lang') == 'amharic') echo 'selected="selected"'; ?>>አማርኛ</option> -->
+                <!-- <option value="#">Afaan Oromoo</option>
+                <option value="#">ትግርኛ</option>
+                <option value="#">Afar</option>
+                <option value="#">Sumali</option> -->
+              </div>
+            </div>
+            <!-- end col-3 -->
+            <div class="col-md-3 col-sm-4 col-xs-8"> <span class="date">12 Mar </span> <span class="weather"><i class="ion-ios-partlysunny"></i> 15°</span> <span class="phone"><i class="ion-ios-telephone"></i> <a href="tel:1234">1234</a></span> </div>
+            <!-- end col-3 --> 
+          </div>
+          <!-- end row --> 
+        </div>
+        <!-- end container --> 
+      </div>
+      <!-- end top-bar -->
+      <div class="container navbar-container">
+        <div class="navbar-header">
+          <div class="row">
+            <div class="col-md-3 col-sm-4 col-xs-12">
+              <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+              <a class="navbar-brand" href="index.html"><img src="/static/images/logo.png" alt="Image"></a> </div>
+            <!-- end col-5 -->
+            <div class="col-md-3 col-sm-4 hidden-xs"> <i class="icon-global"></i>
+              <h6>OPENING HOURS<br>
+                <span>MON-FRI 07:00 - 18:00 </span></h6>
+            </div>
+            <!-- end col-2 -->
+            <div class="col-md-3 col-sm-4 hidden-xs"> <i class="icon-map-pin"></i>
+              <h6>OUR LOCATION<br>
+                <span>Addis Ababa - Ethiopia</span></h6>
+            </div>
+            <!-- end col-2 -->
+            <div class="col-md-3 hidden-sm hidden-xs"> <i class="icon-chat"></i>
+              <h6>QUICK SUPPORT<br>
+                <span>info@balderasu.com</span></h6>
+            </div>
+            <!-- end col-2 --> 
+          </div>
+          <!-- end row --> 
+        </div>
+        <!-- end navbar-header -->
+        <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav main-menu">
+            <li><a href="#" class="transition">HOME</a></li>
+            <li><a href="#estimate" class="transition">ESTIMATE</a></li>
+            <li><a href="#steps" class="transition">STEPS</a></li>
+            <li><a href="#services" class="transition">SERVICES</a></li>
+            <li><a href="#about" class="transition">ABOUT US</a></li>
+            <li><a href="#registration" class="transition">SIGN UP</a></li>
+            <li><a href="/login" class="transition">LOGIN</a></li>
+          </ul>
+          <ul class="nav navbar-nav social-nav visible-lg visible-xs">
+            <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="ion-social-facebook"></i></a></li>
+            <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="ion-social-twitter"></i></a></li>
+            <li><a href="#" data-toggle="tooltip" data-placement="top" title="Google+"><i class="ion-social-googleplus"></i></a></li>
+            <li><a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="ion-social-youtube"></i></a></li>
+            <li><a href="#" data-toggle="tooltip" data-placement="top" title="Vimeo"><i class="ion-social-vimeo"></i></a></li>
+          </ul>
+          <ul class="nav navbar-nav icon-nav hidden-sm">
+            <li><a href="javascript:void(0)" class="hamburger-menu"><i class="ion-navicon"></i></a></li>
+            <li><a href="javascript:void(0)" class="search-btn"><i class="ion-search"></i></a></li>
+            <li><a href="javascript:void(0)"><i class="ion-android-cart"></i></a></li>
+            <li class="search-box">
+              <form>
+                <input type="text" placeholder="Type here">
+                <button type="submit"><i class="ion-chevron-right"></i></button>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <!-- end navbar-collapse --> 
+      </div>
+      <!-- end container --> 
+    </nav>
+  </header>
+  <!-- end full-header -->
+  <section class="slider">
+    <div class="fixed-form">
+      <div class="container">
+        <h3>balderasu</h3>
+        <h5>... an Ethiopian last mile operator</h5>
+        <form>
+          <input type="text" placeholder="Enter Order Id...">
+          &nbsp;
+          <button type="submit">Track</button>
+        </form>
+      </div>
+      <!-- end container --> 
+    </div>
+    <!-- end fixed-form -->
+    <div class="main-slider" id="main-slider">
+      <video autoplay muted loop poster="https://balderasu.adc.com.et/balderasu/assets/images/truck.jpg">
+        <source src="/static/videos/sliders_2_4.mp4" type="video/mp4">
+      </video>
+    </div>
+    
+  </section>
+  <!-- end slider -->
+  <section class="featured-services" id="estimate">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="left-side">
+            <h3 class="section-title"><span>01</span>Estimation</h3>
+            <p>Trip Estimation </p>
+            <ul>
+              <li>Motor 1km: 10 ETB</li>
+              <li>Sedan 1km: 22 ETB</li>
+              <li>Damas 1km: 22 ETB</li>
+              <li>Pickup 1km: 25 ETB</li>
+            </ul>
+          </div>
+          <!-- end left-side --> 
+        </div>
+        <!-- end col-5 -->
+        <div class="col-md-7">
+          <div class="right-side">
+            <div class="service-box">
+              <figure><img src="/static/images/1.png" width="50%" alt="Image">
+                <figcaption>Call Center</figcaption>
+              </figure>
+              <div class="desc"> You can call any kind of cargo service @6583</div>
+              <!-- end desc --> 
+            </div>
+            <!-- end service-box -->
+            <div class="service-box spacing">
+              <figure><img src="/static/images/2.png" width="50%" alt="Image">
+                <figcaption>Direct from app</figcaption>
+              </figure>
+              <div class="desc"> Order and track your order from balderasu app</div>
+              <!-- end desc --> 
+            </div>
+            <!-- end service-box -->
+            <div class="service-box">
+              <figure><img src="/static/images/3.png" width="50%" alt="Image">
+                <figcaption>Access from website</figcaption> 
+              </figure>
+              <div class="desc">Or simply access from balderasu's website </div>
+              <!-- end desc --> 
+            </div>
+            <!-- end service-box --> 
+          </div>
+          <!-- end right-side --> 
+        </div>
+        <!-- end col-7 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end featured-services -->
+  <section class="calculate-shipping" id="steps">
+    <div class="container">
+      <h3 class="section-title"><span>02</span>Simple steps...</h3>
+      <img src="/static/images/balderesu-steps.jpg" height="80%" alt="">
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end calculate-shipping -->
+  <section class="steps-featuress" id="services">
+    <div class="container">
+      <h3 class="section-title"><span>03</span>What we offer</h3>
+      <div class="container2">
+        <div class="card">
+          <h3 class="title">Moving your need</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <div class="circle">
+            <div class="desc2">From doc to entire house at reasonable cost.</div>
+            <div class="desc2">You order we deliver!!</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="title">Safe and Secure</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <div class="circle">
+            <div class="desc2">Use your POD (proof of delivery) to confirm safe delivery of your package </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="title">Traceable</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <div class="circle">
+            <div class="desc2">Use your tracking ID to track where your package is at any given time</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="title">Fast</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <div class="circle">
+            <div class="desc2">Best gears and experienced drivers at your disposal </div>
+          </div>
+        </div>
+          <div class="card">
+            <h3 class="title">Advanced</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+            </div>
+            <div class="circle">
+              <div class="desc2">Utilizing advanced technology for last mile delivery </div>
+            </div>
+          
+          </div>
+          <div class="card">
+            <h3 class="title">Support</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+            </div>
+            <div class="circle">
+              <div class="desc2">Call @ 6583 for any support and information</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end container --> 
+  </section>
+
+  
+  <!-- end steps-features -->
+  <section class="testimonials" >
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="content-carousel ">
+            <div> 
+              <figure><img src="/static/images/index.jpeg" alt="Image" height="200px" ></figure>
+              <h4>Pickup Service</h4>
+            </div>
+            <div>
+              <figure><img src="https://balderasu.adc.com.et/balderasu/assets/images/truck.jpg" height="200px" alt="Image"></figure>
+              <h4>isuzu van transport</h4>
+            </div>
+            <!-- end div -->
+            <div>
+              <figure><img src="https://balderasu.adc.com.et/balderasu/assets/images/0006_7.png" height="200px" alt="Image"></figure>
+              <h4>door-to-door delivery</h4>
+            </div>
+            <div>
+                <figure><img src="https://balderasu.adc.com.et/balderasu/assets/images/_0000_damas.png" height="200px" alt="Image"></figure>
+                <h4>Delivery for small material</h4>
+            </div>
+            <div>
+              <figure><img src="https://balderasu.adc.com.et/balderasu/assets/images/_0001_isuzu-open.png" height="200px" alt="Image"></figure>
+              <h4>Delivery on ISUZU</h4>
+            </div>
+            <div>
+              <figure><img src="https://balderasu.adc.com.et/balderasu/assets/images/sedan.png" height="200px" alt="Image"></figure>
+              <h4>Medium size Delivery</h4>
+            </div>
+            <div>
+              <figure><img src="https://balderasu.adc.com.et/balderasu/assets/images/_0005_Sinotruck.png" height="200px" alt="Image"></figure>
+              <h4>Constraction Material delivery</h4>
+            </div>
+            <!-- end div --> 
+          </div>
+          <!-- end content-carousel --> 
+        </div>
+        <!-- end col-12 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+
+  <section class="about-intro parent" id="about">
+    <div class="left-side">
+      <div class="content-box">
+        <h3 class="section-title"><span>04</span>ABOUT balderasu</h3>
+        <p>is a Horizon Express Company established in 2015 with a dream of reinventing the last mile industry landscape in Ethiopia. Our real-time order processing platform facilitates instant order processing, pickup and delivery of FMGC in addition to other bulk order processing. With our omni-channel platform, we are enabling big business as well as SMB to handle their fleet at ease.</p>
+        <div class="fun-facts">
+          <!-- end fun-box --> 
+        </div>
+        <!-- end fun-facts --> 
+      </div>
+      <!-- end content-box --> 
+    </div>
+    <!-- end left-side -->
+    <div class="right-side" data-stellar-background-ratio="0.5">
+      <div class="overlay parent text-center">
+        <div>balderasu</div>
+      </div>
+    </div>
+    <!-- end left-side --> 
+  </section>
+  <!-- end testimonials -->
+  
+  <!-- end latest-news -->
+  <section class="clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12" >
+          <ul>
+            <li>
+              <figure>
+                <h5><img src="https://balderasu.adc.com.et/balderasu/assets/images/ride.png" height="50px" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="https://balderasu.adc.com.et/balderasu/assets/images/elf_logo.png" height="50px" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="https://balderasu.adc.com.et/balderasu/assets/images/adclogo.jpg" height="50px" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="https://balderasu.adc.com.et/balderasu/assets/images/Artboard 1_1.jpg" height="50px" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="https://balderasu.adc.com.et/balderasu/assets/images/Artboard 1 copy.jpg" height="50px" alt="Image"></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><img src="https://balderasu.adc.com.et/balderasu/assets/images/Artboard 1 copy 4.jpg" height="50px" alt="Image"></h5>
+              </figure>
+            </li>
+            
+          </ul>
+        </div>
+        <!-- end col-12 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  
+  <section class="steps-features" id="registration">
+    <div class="container">
+      <h3 class="section-title"><span>04</span>Registration</h3>
+      <div class="row spacing">
+        <div class="col-md-4 col-sm-4 spacing">
+          <div class="step-box bg-1"> <span>01</span>
+              <h3>User</h3>
+              <h5></h5>
+              <p>Set your order and Balderasu will connect you with all the stakeholders</p>
+              <a href="#" data-toggle="modal" data-target="#user">REGISTER</a> </div>
+            
+          <!-- end step-box --> 
+        </div>
+        <!-- end col-4 -->
+        <div class="col-md-4 col-sm-4 spacing">
+          <div class="step-box bg-2 featured"> <span>02</span>
+              <h3>BUSINESS </h3>
+              <h5></h5>
+              <p >If you have business and you need to outsource your fleet or convert it to on demand availability, please join us today. </p>
+              <a href="#" data-toggle="modal" data-target="#business">REGISTER</a> 
+          </div>
+          <!-- end step-box --> 
+        </div>
+        <!-- end col-4 -->
+        <div class="col-md-4 col-sm-4 spacing">
+          <div class="step-box bg-3"> <span>03</span>
+            <h3>DRIVER</h3>
+            <h5></h5>
+            <p >If you are a driver with an asset in our service class, please join and earn today.</p>
+            <a href="#" data-toggle="modal" data-target="#driver">REGISTER</a> </div>
+          <!-- end step-box --> 
+        </div>
+        <!-- end col-4 --> 
+      </div>
+      <div class="modal fade" id="user" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="column" id="main">
+                <h3 class="section-title"><span>04</span>User</h3>
+                <form id="contact" name="contact" method="post">
+                    <div class="form-group">
+                      <label>Full name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <!-- end form-group -->
+                    <div class="form-group">
+                      <label>Phone</label>
+                        <input type="tel" name="phone" id="phone"  required>
+                    </div>
+                    <div class="form-group">
+                      <label>Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <!-- end form-group -->
+                    <div class="form-group">
+                      <label>Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Repeat Password</label>
+                        <input type="password" name="password2" id="password2" required>
+                    </div>
+                    <!-- end form-group -->
+                    <div class="form-group submi">
+                        <button id="submit" type="submit" name="submit">SUBMIT</button>
+                    </div>
+                    <!-- end form-group -->
+                </form>
+                 <div id="success" class="alert alert-success" role="alert">
+                    <p>Your message was sent successfully! We will be in touch as soon as we can.</p>
+                  </div>
+                <!-- end success -->
+                <div id="error" class="alert alert-danger" role="alert">
+                  <p>Something went wrong, try refreshing and submitting the form again.</p>
+                </div>
+              </div>
+              
+              <div class="column" id="secondary">
+                <div class="sec-content">
+                  <div class="wrapper">
+                    <ul class="StepProgress">
+                      <div class="StepProgress-item is-done"><strong>Registration</strong>
+                        Web | App | sales</div>
+                      <div class="StepProgress-item current"><strong>Request</strong>
+                      make a service request via Web | App | sales</div>
+                      <div class="StepProgress-item current"><strong>Select</strong>
+                      Pick up | Drop off | Cargo class</div>
+                      <div class="StepProgress-item current"><strong>Confirm</strong>
+                      Confirm your order</div>
+                      <div class="StepProgress-item current"><strong>Recieve POD</strong>
+                      Recieve proof of delivery</div>
+                      <div class="StepProgress-item current"><strong>Delivery</strong>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="business" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="column" id="main">
+                <h3 class="section-title"><span>02</span>Business</h3>
+                <form id="contact" name="contact" method="post">
+                    <div class="form-group">
+                      <label>Full name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <!-- end form-group -->
+                    <div class="form-group">
+                      <label>Phone</label>
+                        <input type="tel" name="phone" id="phone"  required>
+                    </div>
+                    <div class="form-group">
+                      <label>Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <!-- end form-group -->
+                    <div class="form-group">
+                      <label>Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Repeat Password</label>
+                        <input type="password" name="password2" id="password2" required>
+                    </div>
+                    <!-- end form-group -->
+                    <div class="form-group submi">
+                        <button id="submit" type="submit" name="submit">SUBMIT</button>
+                    </div>
+                    <!-- end form-group -->
+                </form>
+                 <div id="success" class="alert alert-success" role="alert">
+                    <p>Your message was sent successfully! We will be in touch as soon as we can.</p>
+                  </div>
+                <!-- end success -->
+                <div id="error" class="alert alert-danger" role="alert">
+                  <p>Something went wrong, try refreshing and submitting the form again.</p>
+                </div>
+              </div>
+              
+              <div class="column" id="secondary">
+                <div class="sec-content">
+                  <div class="wrapper">
+                    <ul class="StepProgress">
+                      <div class="StepProgress-item is-done"><strong>Registration</strong>
+                        Web | App | sales</div>
+                      <div class="StepProgress-item current"><strong>Contact Balderasu</strong></div> 
+                      <div class="StepProgress-item current"><strong>Sign agreement</strong></div>
+                      <div class="StepProgress-item current"><strong>Get your activation code</strong></div>
+                      <div class="StepProgress-item current"><strong>Start your first order</strong></div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="driver" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="column" id="main">
+                <h3 class="section-title"><span>03</span>Driver</h3>
+                <form id="register" name="register" method="post">
+                    <div class="form-group">
+                      <label>Full name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <!-- end form-group -->
+                    <div class="form-group">
+                      <label>Phone</label>
+                        <input type="tel" name="phone" id="phone"  required>
+                    </div>
+                    <div class="form-group">
+                      <label>Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <!-- end form-group -->
+                    <div class="form-group">
+                      <label>Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Repeat Password</label>
+                        <input type="password" name="password2" id="password2" required>
+                    </div>
+                    <!-- end form-group -->
+                    <div class="form-group submi">
+                        <button id="submit" type="submit" name="submit">SUBMIT</button>
+                    </div>
+                    <!-- end form-group -->
+                </form>
+                 <div id="success" class="alert alert-success" role="alert">
+                    <p>Your message was sent successfully! We will be in touch as soon as we can.</p>
+                  </div>
+                <!-- end success -->
+                <div id="error" class="alert alert-danger" role="alert">
+                  <p>Something went wrong, try refreshing and submitting the form again.</p>
+                </div>
+              </div>
+              
+              <div class="column" id="secondary">
+                <div class="sec-content">
+                  <div class="wrapper">
+                    <ul class="StepProgress">
+                      <div class="StepProgress-item is-done"><strong>Registration</strong>
+                        Web | App </div>
+                      <div class="StepProgress-item current"><strong>Get your car check</strong>
+                      </div>
+                      <div class="StepProgress-item current"><strong>Sign agreement</strong></div>
+                      <div class="StepProgress-item current"><strong>GActive your app</strong></div>
+                      <div class="StepProgress-item current"><strong>Start your first delivery</strong></div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+ 
+  <!-- end application -->
+  <footer class="dark-footer">
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <h4 class="title"><span>01</span>ABOUT US</h4>
+            <p>Our real-time order processing platform facilitates instant order processing, pickup and delivery of FMGC in addition to other bulk order processing. With our omni-channel platform, we are enabling big business as well as SMB to handle their fleet at ease.</p>
+            <ul class="social-media">
+              <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+              <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+              <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+              <li><a href="#"><i class="ion-social-youtube"></i></a></li>
+              <li><a href="#"><i class="ion-social-vimeo"></i></a></li>
+            </ul>
+          </div>
+          <!-- end col-5 -->
+          <div class="col-md-2 col-sm-3 col-xs-6">
+            <h4 class="title"><span>02</span>SERVICES</h4>
+            <ul class="footer-menu">
+              <li><a href="#">Moving your need</a></li>
+              <li><a href="#">safe and secure</a></li>
+              <li><a href="#">fast</a></li>
+              <li><a href="#">Traceable</a></li>
+              <li><a href="#">Advanced</a></li>
+            </ul>
+          </div>
+          <!-- end col-2 -->
+          <div class="col-md-2 col-sm-3 col-xs-6">
+            <h4 class="title"><span>03</span>Ok Delivery</h4>
+            <ul class="footer-menu">
+              <li><a href="#" >home</a></li>
+              <li><a href="#estimate" >estimate</a></li>
+              <li><a href="#steps" >steps</a></li>
+              <li><a href="#services" >services</a></li>
+              <li><a href="#about" > about us</a></li>
+              <li><a href="#registration" >sign up</a></li>
+            </ul>
+          </div>
+          <!-- end col-2 -->
+          <div class="col-md-4">
+            <div class="newsletter">
+              <h4 class="title"><span>04</span>NEWSLETTER</h4>
+              <p>If you would like more information about our services we are eager to help.</p>
+              <form>
+                <input type="text" placeholder="Type your e-mail">
+                <button type="submit">JOIN</button>
+              </form>
+              <small>I promise, we won’t spam you!</small> </div>
+            <!-- end newsletter --> 
+          </div>
+          <!-- end col-2 --> 
+        </div>
+        <!-- end row -->
+        
+        <!-- end row --> 
+      </div>
+      <!-- end container --> 
+    </div>
+    <!-- end footer-content -->
+    <div class="sub-footer">
+      <div class="container"> <span class="copyright">Copyright © 2022 , Ok Delivery | Delivery anything </span></div>
+      <!-- end container --> 
+    </div>
+    <!-- end sub-footer --> 
+  </footer>
+  <!-- end footer --> 
+</main>
+
+<!-- JS FILES --> 
+<script src="/static/js/jquery.min.js"></script> 
+<script src="/static/js/bootstrap.min.js"></script> 
+<script src="/static/js/bootstrap-select.js"></script> 
+<script src="/static/js/bootstrap-datepicker.js"></script> 
+<script src="/static/js/jquery.counterup.min.js"></script> 
+<script src="/static/js/jquery.stellar.js"></script> 
+<script src="/static/js/jquery.validate.min.js"></script> 
+<script src="/static/js/jquery.form.js"></script> 
+<script src="/static/js/contact-form.js"></script> 
+<script src="/static/js/jquery.fancybox.js"></script> 
+<script src="/static/js/waypoints.min.js"></script> 
+<script src="/static/js/slick.js"></script> 
+<script src="/static/js/masonry.min.js"></script> 
+<script src="/static/js/scripts.js"></script>
+</body>
+</html>
