@@ -1,10 +1,10 @@
 
 <div class="pagetitle">
-      <h1>Edit</h1>
+      <h1>View</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active">Main</li>
+          <li class="breadcrumb-item active">Hero</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->

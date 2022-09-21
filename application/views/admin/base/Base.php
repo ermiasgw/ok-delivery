@@ -10,24 +10,24 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="static/assets/img/favicon.png" rel="icon">
-  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?php echo base_url('static/assets/img/favicon.png');?>" rel="icon">
+  <link href="<?php echo base_url('static/assets/img/apple-touch-icon.png');?>" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="static/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="static/assets/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="static/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <link href="static/assets/vendor/simple-datatables/style.css" rel="stylesheet">
+	<link href="<?php echo base_url('static/assets/vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
+  <link href="<?php echo base_url('static/assets/vendor/bootstrap-icons/bootstrap-icons.css');?>" rel="stylesheet">
+  <link href="<?php echo base_url('static/assets/vendor/remixicon/remixicon.css');?>" rel="stylesheet">
+  <link href="<?php echo base_url('static/assets/vendor/boxicons/css/boxicons.min.css');?>" rel="stylesheet">
+  <link href="<?php echo base_url('static/assets/vendor/quill/quill.snow.css');?>" rel="stylesheet">
+  <link href="<?php echo base_url('static/assets/vendor/quill/quill.bubble.css');?>" rel="stylesheet">
+  <link href="<?php echo base_url('static/assets/vendor/simple-datatables/style.css');?>" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="static/assets/css/style.css" rel="stylesheet">
+  <link href="<?php echo base_url('static/assets/css/style.css');?>" rel="stylesheet">
 
 
 </head>
@@ -39,7 +39,7 @@
 
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="static/assets/img/logo.png" alt="">
+        <img src="<?php echo base_url('static/assets/img/logo.png');?>" alt="">
         <span class="d-none d-lg-block">Ok Delivery</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -64,7 +64,7 @@
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="static/assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <img src="<?php echo base_url('static/assets/img/profile-img.jpg');?>" alt="Profile" class="rounded-circle">
             <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
           </a><!-- End Profile Iamge Icon -->
 
@@ -128,77 +128,156 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link collapsed mt-5  " href="index.html">
+        <a class="nav-link collapsed mt-5" href="/admin">
           <i class="bi bi-grid"></i>
           <span>Settings</span>
         </a>
-      </li> <!-- End Dashboard Nav -->
-
-	  <li class="nav-item">
-        <a class="nav-link collapsed" href="index.html">
+      </li>
+			<li class="nav-item">
+        <a class="nav-link collapsed " href="/admin/about">
           <i class="bi bi-grid"></i>
-          <span>Main</span>
+          <span>About</span>
         </a>
       </li>
-
 	  <li class="nav-item">
-        <a class="nav-link " data-bs-target="#components-nav" data-bs-toggle="collapse" href="#" href="index.html">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#" href="index.html">
           <i class="bi bi-grid"></i>
-          <span>Hero images</span></i><i class="bi bi-chevron-down ms-auto"></i>
+          <span>Hero</span></i><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-				<ul id="components-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+				<ul id="components-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
           <li>
-            <a href="components-alerts.html">
-              <i class="bi bi-circle"></i><span>Alerts</span>
+            <a href="/admin/hero_view">
+              <i class="bi bi-circle"></i><span>view</span>
+            </a>
+          </li>
+					<li>
+            <a href="/admin/hero_add">
+              <i class="bi bi-circle"></i><span>add</span>
             </a>
           </li>
           
         </ul>
       </li>
 
-	  <li class="nav-item">
-        <a class="nav-link collapsed" href="index.html">
+			<li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav3" data-bs-toggle="collapse" href="#" href="index.html">
           <i class="bi bi-grid"></i>
-          <span>Estimation</span>
+          <span>Estimation</span></i><i class="bi bi-chevron-down ms-auto"></i>
         </a>
+				<ul id="components-nav3" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>view</span>
+            </a>
+          </li>
+					<li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>add</span>
+            </a>
+          </li>
+          
+        </ul>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="index.html">
+        <a class="nav-link collapsed" data-bs-target="#components-nav4" data-bs-toggle="collapse" href="#" href="index.html">
           <i class="bi bi-grid"></i>
-          <span>Features</span>
+          <span>Features</span></i><i class="bi bi-chevron-down ms-auto"></i>
         </a>
+				<ul id="components-nav4" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>view</span>
+            </a>
+          </li>
+					<li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>add</span>
+            </a>
+          </li>
+          
+        </ul>
       </li>
 
-	  <li class="nav-item">
-        <a class="nav-link collapsed" href="index.html">
+			<li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav5" data-bs-toggle="collapse" href="#" href="index.html">
           <i class="bi bi-grid"></i>
-          <span>Services</span>
+          <span>Services</span></i><i class="bi bi-chevron-down ms-auto"></i>
         </a>
+				<ul id="components-nav5" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>view</span>
+            </a>
+          </li>
+					<li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>add</span>
+            </a>
+          </li>
+          
+        </ul>
       </li>
 
-	  <li class="nav-item">
-        <a class="nav-link collapsed" href="index.html">
+			<li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav6" data-bs-toggle="collapse" href="#" href="index.html">
           <i class="bi bi-grid"></i>
-          <span>Cars</span>
+          <span>Cars</span></i><i class="bi bi-chevron-down ms-auto"></i>
         </a>
+				<ul id="components-nav6" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>view</span>
+            </a>
+          </li>
+					<li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>add</span>
+            </a>
+          </li>
+          
+        </ul>
       </li>
 
-	  <li class="nav-item">
-        <a class="nav-link collapsed" href="index.html">
+			<li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav7" data-bs-toggle="collapse" href="#" href="index.html">
           <i class="bi bi-grid"></i>
-          <span>Sponsors</span>
+          <span>Sponsors</span></i><i class="bi bi-chevron-down ms-auto"></i>
         </a>
+				<ul id="components-nav7" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>view</span>
+            </a>
+          </li>
+					<li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>add</span>
+            </a>
+          </li>
+          
+        </ul>
       </li>
 
-	  <li class="nav-item">
-        <a class="nav-link collapsed" href="index.html">
+			<li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav8" data-bs-toggle="collapse" href="#" href="index.html">
           <i class="bi bi-grid"></i>
-          <span>Registration types</span>
+          <span>Registration types</span></i><i class="bi bi-chevron-down ms-auto"></i>
         </a>
+				<ul id="components-nav8" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>view</span>
+            </a>
+          </li>
+					<li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>add</span>
+            </a>
+          </li>
+          
+        </ul>
       </li>
-    </ul>
-
   </aside><!-- End Sidebar-->
 
   <main id="main" class="main">
